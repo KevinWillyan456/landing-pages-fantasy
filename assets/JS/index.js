@@ -20,5 +20,7 @@ const generationLinks = () => {
 generationLinks()
 
 allLinksEpisode.forEach((episode, i) => {
-    conteinerEpisode.innerHTML += `<a href="${episode}" target="_blank">Episódio ${i}</a>`
+    conteinerEpisode.innerHTML += `
+    <a href="${episode}" target="_blank">Episódio ${i+1}</a>
+    `;
 })
