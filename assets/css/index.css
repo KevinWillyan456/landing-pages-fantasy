@@ -5,14 +5,19 @@
 }
 body {
     background-color: #ccc;
+    font-family: sans-serif;
+    background: url('../img/bastard-image-7.jpg') no-repeat center center/cover;
+    min-height: 100vh;
 }
 a {
     text-decoration: none;
 }
+
+/* Navbar */
+
 .navbar {
     width: 100%;
     background-color: #222;
-    font-family: sans-serif;
     color: white;
 }
 .navbar .navbar-container {
@@ -45,4 +50,36 @@ a {
     cursor: pointer;
     background-color: #333;
     padding: 16px;
+}
+
+/* Seção Produto */
+
+.bannerProduto {
+    width: 100%;
+    /* background-color: rgba(51, 51, 51, 0.6); */
+    background: linear-gradient(rgba(51, 51, 51, 0.6),#4bb6e060);
+    box-shadow: 0 50px 70px #4bb6e040;
+    padding: 20px 0;
+}
+.bannerProduto .bannerProduto-conteiner {
+    margin: auto;
+    width: 80%;
+    padding: 20px 0;
+    background-image: radial-gradient(circle at 100% 0%, #7c5c5b 0, #6d5355 12.5%, #5b4a4c 25%, #483f40 37.5%, #333333 50%, #1f2725 62.5%, #0f1d18 75%, #001507 87.5%, #000a00 100%);
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.bannerProduto .bannerProduto-conteiner .bastard {
+    width: 80%;
+    pointer-events: none;
+}
+.bannerProduto .bannerProduto-conteiner h2 {
+    color: #4bb6e0;
+    margin-top: 10px;
+    text-shadow: 0 0 5px black, 0 0 5px black, 0 0 20px #ffffff80;
+    font-size: 1.5rem;
+    text-align: center;
 }
