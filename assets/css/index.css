@@ -12,6 +12,18 @@ body {
 a {
     text-decoration: none;
 }
+.titulo {
+    width: 100%;
+}
+.titulo div{
+    width: 80%;
+    color: white;
+    font-size: 2rem;
+    background-image: linear-gradient(270deg, #131e1d 0, #0c1312 25%, #000000 50%, #000000 75%, #000000 100%);
+    margin: auto;
+    text-align: center;
+    padding: 20px 0;
+}
 
 /* Navbar */
 
@@ -82,4 +94,56 @@ a {
     text-shadow: 0 0 5px black, 0 0 5px black, 0 0 20px #ffffff80;
     font-size: 1.5rem;
     text-align: center;
+}
+
+/* Genêros */
+
+.genero {
+    width: 100%;
+}
+.genero-conteiner {
+    width: 80%;
+    margin: auto;
+    background-image: linear-gradient(270deg, #313c3b 0, #2b3130 25%, #242424 50%, #1d1819 75%, #160b10 100%);
+    padding: 20px 0;
+
+    display: flex;
+    justify-content: space-around;
+}
+.genero-conteiner div {
+    color: white;
+    font-size: 1.2rem;
+    padding: 20px;
+    min-width: 100px;
+    background-image: linear-gradient(220deg, #3e1e69 0, #070052 50%, #00003d 100%);
+    border-radius: 15px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Sinopse */
+
+.sinopse {
+    width: 100%;
+}
+.sinopse-conteiner {
+    width: 80%;
+    margin: auto;
+    background-color: black;
+    font-size: 1.4rem;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Episódios */
+.episodios {
+    width: 100%;
+}
+.episodios-container {
+    width: 80%;
+    margin: auto;
 }
