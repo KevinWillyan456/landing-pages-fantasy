@@ -147,3 +147,18 @@ a {
     width: 80%;
     margin: auto;
 }
+
+/* Abertura */
+.abertura {
+    width: 100%;
+}
+.abertura-conteiner {
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111;
+    padding: 40px 0;
+}
