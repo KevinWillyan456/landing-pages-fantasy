@@ -162,3 +162,20 @@ a {
     background-color: #111;
     padding: 40px 0;
 }
+
+/* Screenshots */
+
+.screen {
+    width: 100%;
+}
+
+.screen-conteiner {
+    width: 80%;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.screen .screen-conteiner img {
+    width: 200px;
+}
