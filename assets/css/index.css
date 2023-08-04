@@ -55,28 +55,32 @@ a {
   cursor: pointer;
 }
 .navbar .navbar-container .title a {
-  color: white;
+  color: #4bb6e0;
+  text-shadow: 0 0 5px black, 0 0 5px black, 0 0 20px #ffffff80;
 }
 .navbar .navbar-container .list {
   list-style-type: none;
   display: flex;
+  gap: 40px;
 }
-.navbar .navbar-container .list li:nth-child(2) {
-  margin: 0 40px;
-}
+
 .navbar .navbar-container .list li a {
+  transition: 200ms;
   color: white;
   font-size: 1.2rem;
   cursor: pointer;
   background-color: #333;
   padding: 16px;
 }
+.navbar .navbar-container .list li a:hover {
+  color: black;
+  background-color: #dadada;
+}
 
 /* Seção Produto */
 
 .bannerProduto {
   width: 100%;
-  /* background-color: rgba(51, 51, 51, 0.6); */
   background: linear-gradient(rgba(51, 51, 51, 0.6), #4bb6e060);
   box-shadow: 0 50px 70px #4bb6e040;
   padding: 20px 0;
@@ -154,6 +158,14 @@ a {
   align-items: center;
   justify-content: center;
 }
+.genero-conteiner div:hover {
+  background-image: linear-gradient(
+    220deg,
+    #4e2e79 0,
+    #170062 50%,
+    #10004d 100%
+  );
+}
 
 /* Sinopse */
 
@@ -181,7 +193,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #111;
+  background-color: #0c0c0c;
   padding: 40px 0;
 }
 
@@ -204,7 +216,6 @@ a {
   background-color: rgba(0, 0, 0, 0.4);
 }
 .screen .screen-conteiner div {
-  background-color: red;
   display: flex;
   box-shadow: 0 0 20px black;
 }
@@ -225,6 +236,7 @@ a {
 .rodape .title {
   font-size: 24px;
   color: #4bb6e0;
+  text-shadow: 0 0 5px black, 0 0 5px black, 0 0 20px #ffffff80;
 }
 .rodape .copyright {
   font-size: 16px;
