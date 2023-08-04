@@ -14,6 +14,7 @@ a {
 }
 .titulo {
   width: 100%;
+  margin: 20px 0;
 }
 .titulo div {
   width: 80%;
@@ -169,15 +170,6 @@ a {
   padding: 20px;
 }
 
-/* Episódios */
-.episodios {
-  width: 100%;
-}
-.episodios-container {
-  width: 80%;
-  margin: auto;
-}
-
 /* Abertura */
 .abertura {
   width: 100%;
@@ -199,13 +191,14 @@ a {
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .screen-conteiner {
   width: 80%;
   display: grid;
   gap: 20px;
-  padding: 20px;
+  padding: 40px;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
   background-color: rgba(0, 0, 0, 0.4);
@@ -216,7 +209,7 @@ a {
   box-shadow: 0 0 20px black;
 }
 .screen .screen-conteiner div img {
-  width: 200px;
+  width: 100%;
 }
 
 .rodape {
@@ -231,6 +224,7 @@ a {
 }
 .rodape .title {
   font-size: 24px;
+  color: #4bb6e0;
 }
 .rodape .copyright {
   font-size: 16px;
